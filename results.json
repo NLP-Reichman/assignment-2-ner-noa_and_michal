@@ -14,10 +14,7 @@
     "tag2id_length": 7,
     "Spongebob": 1
   },
-  "test_count_oov": {
-    "dev_oov": 0,
-    "test_oov": 0
-  },
+  "test_count_oov": "TypeError(\"unhashable type: 'list'\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_13787/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_13787/49652930.py\", line 35, in test_count_oov\n    'dev_oov': count_oov(dev_sequences),\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_13787/1954593699.py\", line 11, in count_oov\n    if word not in vocab.word2id:\n       ^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: unhashable type: 'list'\n",
   "test_prepare_data_loader": {
     "lengths": [
       110,
@@ -26,11 +23,11 @@
     ]
   },
   "test_NERNet": {
-    "f1": 0.9214372957654735,
-    "f1_wo_o": 0.7427948852984734
+    "f1": 0.9330715035091784,
+    "f1_wo_o": 0.8044586618454255
   },
   "test_glove": {
-    "f1": 0.897834802610286,
-    "f1_wo_o": 0.6230181870411705
+    "f1": 0.8961547595194035,
+    "f1_wo_o": 0.6102393268667514
   }
 }
