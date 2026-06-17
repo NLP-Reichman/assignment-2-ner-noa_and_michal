@@ -14,7 +14,10 @@
     "tag2id_length": 7,
     "Spongebob": 1
   },
-  "test_count_oov": "ValueError('too many values to unpack (expected 2)')\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_32735/49652930.py\", line 108, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_32735/49652930.py\", line 35, in test_count_oov\n    'dev_oov': count_oov(dev_sequences),\n               ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_32735/663238733.py\", line 10, in count_oov\n    for word_ids, tag_ids in sequence:\n        ^^^^^^^^^^^^^^^^^\nValueError: too many values to unpack (expected 2)\n",
+  "test_count_oov": {
+    "dev_oov": 638,
+    "test_oov": 1368
+  },
   "test_prepare_data_loader": {
     "lengths": [
       110,
